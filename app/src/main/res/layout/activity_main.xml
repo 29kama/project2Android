@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="385dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Dr. Zhumabayeva Kamazhay"
+        android:textColor="#FFEB3B"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="288dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="15dp"
+        android:text="Welcome to the website of Dr.Zhumabayeva Kamazhay"
+        android:textColor="#FF0606"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="332dp"
+        android:layout_height="298dp"
+        android:layout_gravity="center"
+        android:src="@drawable/kama" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="View my brief bio"
+        android:textColor="#3BFFD8"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="View My complete profile "
+        android:textSize="20dp"
+        android:textColor="#9BF806"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="341dp"
+        android:layout_height="51dp"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:text="Click here to open camera"
+        android:textSize="20dp"
+        android:textColor="#F8B3DE"
+        android:textStyle="bold"/>
+
+
+</LinearLayout>

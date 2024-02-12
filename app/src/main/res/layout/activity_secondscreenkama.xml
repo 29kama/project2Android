@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".secondscreenkama">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_margin="10dp"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20dp"
+        android:text="After graduating from high school, I enrolled in an undergraduate program in cyber security. My goal is to take advantage of the unique opportunity provided by my university and travel to Turkey to further develop my skills. I aspire to become a well-rounded individual and I see the beginning of this journey at your university.
+I have developed a very deep interest in this field by participating in conferences of companies such as Kolesa kz, Product Bee, Technodom, Jusan kz and other IT companies.
+At university, I am also actively involved in student life. In particular, I participated in the debate club, where I was able to significantly improve my skills in communication, analyzing information and identifying arguments. In addition, I am passionate about my hobbies, such as mountaineering. This hobby not only helps me balance my studies and active life, but also develops my stamina, discipline and coping skills.My passion for the Turkish film industry, my interest in sustainable economic development and the diversity of educational opportunities were the basis of my decision to explore studying in this country.
+Thank you for your consideration!" />
+
+
+    </ScrollView>
+
+</LinearLayout>
